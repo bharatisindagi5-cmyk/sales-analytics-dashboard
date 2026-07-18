@@ -1,0 +1,102 @@
+body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+}
+
+.app-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #1f2a44;
+}
+
+.header p {
+    color: #667085;
+    margin-top: 4px;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: #ffffff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    flex: 1;
+    min-width: 220px;
+}
+
+.filter-item label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #344054;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.kpi-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.kpi-card {
+    flex: 1;
+    min-width: 180px;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: white;
+    padding: 18px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.kpi-title {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+.kpi-value {
+    margin: 6px 0 0 0;
+    font-size: 26px;
+}
+
+.charts-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.chart-half {
+    flex: 1;
+    min-width: 420px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 8px;
+}
+
+.chart-full {
+    flex: 1 1 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 8px;
+}
